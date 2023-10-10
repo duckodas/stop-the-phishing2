@@ -14,7 +14,7 @@ class PhishingChecker {
   private async loadPhishingDomains() {
     try {
       const response = await axios.get<PhishingData>(
-        "https://raw.githubusercontent.com/NotAestheticallyDucko/phishing-links/main/domains.json"
+        "https://raw.githubusercontent.com/NotAestheticallyDucko/stop-the-phishing-links/main/domains.json"
       );
 
       this.phishingDomains = response.data.domains;
