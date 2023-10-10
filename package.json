@@ -1,6 +1,6 @@
 {
   "name": "stop-the-phishing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A NPM package that has useful utilities to stop massive amount of phishing",
   "main": "dist/index.js",
   "scripts": {
@@ -37,6 +37,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "axios": "^1.5.1"
+    "node-fetch": "^3.3.2"
   }
 }
